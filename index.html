@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autosoap</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script>
+    $(document).ready(function(){
+        //Скрыть PopUp при загрузке страницы
+        PopUpHide();
+    });
+    //Функция отображения PopUp
+    function PopUpShow(){
+        $("#popup1").show();
+    }
+    //Функция скрытия PopUp
+    function PopUpHide(){
+        $("#popup1").hide();
+    }
+</script>
+  <script type="text/javascript">
+			function show(state){
+					document.getElementById('window').style.display = state;
+					document.getElementById('wrap').style.display = state;
+			}
+      </script>
+
+</head>
+
+<body>
+	<div class="header">
+		<table class="download">
+				<tr>
+						<td colspan="2"><span class="name">Autosoap</span></td>
+				</tr>
+				<tr>
+						<td><span class="as"><a href="https://appsto.re/ru/u3ZDfb.i"><img width="160px" src="as.png" alt="AppStore"></a></span></td>
+						<td><span class="gp"><a href="https://play.google.com/store/apps/details?id=ru.autosoap.ufingys.autosoap10a"><img width="164px" src="gp.png" alt="Google Play"></a></span></td>
+				</tr>
+		</table>
+		<div class="lm">
+			<span><a href="http://autosoap.ru" class="logo"><img src="appLogo.png" height="200"></a></span>
+		</div>
+	</div>
+
+<div class="bodyer">
+  <div class="inf">
+    <h2 class="inf1">Здравствуйте!</h2>
+    <h4 class="inf2">Охотно ответим на любый вопросы.</h4>
+
+    <div class="b-container">
+    <a href="javascript:PopUpShow()">Заполните форму обратной связи</a>
+    </div>
+<div class="b-popup" id="popup1">
+    <div class="b-popup-content">
+      <h2>Форма обратной связи.</h2>
+<form name="MyForm" action="http://autosoap.ru" method="post">
+<p><input class="input" name="name" type="text" style="width:30%" /> Ваше имя*</p>
+
+<p><input class="input" name="email" type="text" style="width:30%" /> Электронная почта*</p>
+
+<p><input class="input" name="sub" type="text" style="width:30%" /> Тема сообщения</p>
+
+<p>Текст сообщения:<br /><textarea name="body" cols="1" rows="5" style="width:60%" /></textarea></p>
+<p><input id="submit" value="Отправить" type="submit" /></p>
+</form>
+    <a href="javascript:PopUpHide()">Закрыть окно</a>
+    </div>
+</div>
+  <br>
+  <!-- back-->
+<div onclick="show('none')" id="wrap"></div>
+  <!-- window-->
+<div id="window">
+    <!-- maps-->
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aed84ca3902d6c6fa864fe2cdbc69fb95219d7a9f9c1cba73fc1523fe61bd6b40&amp;width=600&amp;height=460&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<button class="myButtonMap" onclick="show('block')">Посмотри автомойки на карте<img src="map.png" ></button>
+  <br><br>
+
+  <table class="tbl">
+      <tr>
+          <td class="cam1" colspan="2"><h3>Автомойка "Штиль" на 8 марта		<!-- back-->
+		<div onclick="show('none')" id="wrap"></div>
+					<!-- window-->
+			<div id="window">
+						<!-- maps-->
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aed84ca3902d6c6fa864fe2cdbc69fb95219d7a9f9c1cba73fc1523fe61bd6b40&amp;width=600&amp;height=460&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		<button class="myButtonMap" onclick="show('block')"><img src="map.png" ></button></h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td>
+          <td class="cam2" colspan="2"><h3>Автомойка на ленина 182</h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td>
+      </tr>
+  </table>
+  <table class="tbl">
+      <tr>
+          <td class="adr1" colspan="2"><h5>г. Ижевск, ул. 8 марта, 16а (круглосуточно)
++7 (3412) 400-499</h5></td>
+          <td class="adr2" colspan="2"><h5>г. Ижевск, ул. Ленина, 182 (с 8 до 24)
+83412998608</h5></td>
+      </tr>
+  </table>
+  <table class="tbl">
+      <tr>
+          <td class="cam1" colspan="2"><h3>Автомойка Акварай</h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td>
+          <td class="cam2" colspan="2"><h3>Автомойка Штиль на Пушкинской</h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td>
+      </tr>
+  </table>
+  <table class="tbl">
+      <tr>
+          <td class="adr1" colspan="2"><h5>г. Ижевск, ул. Крылова, 2 (с 7 до 22)
+83412307887</h5></td>
+          <td class="adr2" colspan="2"><h5>г. Ижевск, ул. Пушкинская, 268 (круглосуточно)
++7 (3412) 911-119</h5></td>
+      </tr>
+  </table>
+  <table class="tbl">
+      <tr>
+          <td class="cam1" colspan="2"><h3>Мочалкин Блюз</h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td>
+          <!-- <td class="cam2" colspan="2"><h3>Мойка мойка</h3>
+   		 <iframe scrolling="no" style="margin:0px auto;border:0;width:100%;height:350px" src="http://autosoap.ru/index.php?page=shtil"></iframe>
+   		 	</td> -->
+      </tr>
+  </table>
+  <table class="tbl">
+      <tr>
+          <td class="adr1" colspan="2"><h5>г. Ижевск, ул. 40 лет победы, 7 (круглосуточно)
++7 (3412) 900 - 298</h5></td>
+          <!-- <td class="adr2" colspan="2"><h5>Мойка мойка</h5></td> -->
+      </tr>
+  </table>
+</div>
+</body>
+</html>

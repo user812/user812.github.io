@@ -1,0 +1,9 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Hexlet</title>
+    <meta property="og:title" content="Курсы Hexlet" />
+    <meta property="og:description" content="Курсы по программированию и веб-разработке. Видео, практика и реальные проекты." />
+    <meta property="og:image" content="https://something.io/cover.jpeg" />
+    ...
+  </head>
+</html>

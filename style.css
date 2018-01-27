@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	background-image: url(fon1.png);
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato";
+	font-weight: 300;
+	color: #333;
+}
+
+h3 {
+	margin-left: 2%;
+}
+
+p {
+	line-height: 25px;
+	margin: 10px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+.header {
+	border-radius: 30px;
+  margin: 20px auto;
+  width: 85% ;
+
+	background-color: rgba(167, 211, 209, 0.6);
+}
+
+a.logo {
+	margin-left: 5%;
+
+}
+a.logo:hover {
+  background-position: 0 -40px;
+}
+
+
+.name {
+font-size: 100px;
+
+}
+
+.download {
+	float: right;
+	margin-right: 10%;
+
+}
+
+.bodyer {
+	border-radius: 30px;
+  margin: 50px auto;
+  width: 85% ;
+
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tbl {
+	 width: 100%; /* Ширина таблицы */
+
+	}
+	.cam1 {
+	 width: 40%; /* Ширина первой колонки */
+	 background: rgba(167, 211, 209, 0.3); /* Цвет фона первой колонки */
+	 float: left;
+
+	}
+	.cam2 {
+	 width: 40%; /* Ширина второй колонки */
+	 background: rgba(167, 211, 209, 0.3);  /* Цвет фона второй колонки */
+	 float: right; /* Выравнивание по правому краю */
+	}
+	.cam1, .cam2 {
+	 vertical-align: top; /* Выравнивание по верхнему краю */
+	 padding: 5px; /* Поля вокруг содержимого ячеек */
+	 margin: 4%;
+	 border-radius: 10px;
+	}
+
+.adr1 {
+	 width: 40%;
+
+	 float: left;
+
+	}
+	.adr2 {
+	 width: 40%;
+
+	 float: right;
+	}
+	.adr1, .adr2 {
+   vertical-align: top;
+	 padding: 5px;
+	 margin: -8% 4%;
+   z-index: 1;
+	 border-radius: 10px;
+	}
+
+
+  #wrap{
+		display: none;
+		opacity: 0.8;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		background-color: rgba(1, 1, 1, 0.725);
+		z-index: 100;
+		overflow: auto;
+	}
+
+
+	#window{
+		width: 630px;
+		height: 490px;
+		margin: 50px auto;
+		display: none;
+		background: #fff;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		border-radius: 10px;
+	}
+
+
+
+
+
+
+	.close{
+		margin-left: 364px;
+		margin-top: 4px;
+		cursor: pointer;
+	}
+.inf1 {
+  margin-left: 85px;
+  margin-top: 25px;
+}
+.inf2  {
+  margin-left: 95px;
+  margin-top: 15px;
+}
+.myButton  {
+  margin-left: 95px;
+  margin-top: 15px;
+}
+
+.b-container{
+    margin-left: 95px;
+    font-size:16px;
+    color: #fff;
+}
+.b-popup{
+    width:85%;
+    min-height:100%;
+    background-color: rgba(167, 211, 209, 0.3);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto;
+    width:600px;
+    height: auto;
+    padding:10px;
+    background-color: rgba(167, 211, 209, 0.7);
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#submit {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 18px;
+padding: 0px;
+text-decoration: none;
+box-shadow: 0px 1px 3px #666666;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+background: rgba(167, 211, 209, 1);
+}
+
+#submit:hover {
+background: rgba(167, 211, 209, 0.5);
+}
+#respond input[type=text], textarea {
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+#respond input[type=text]:focus, textarea:focus {
+ box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ margin: 5px 1px 3px 0px;
+ border: 1px solid rgba(81, 203, 238, 1);
+}
+.myButtonMap  {
+  margin-left: 85px;
+  margin-top: 15px;
+}
